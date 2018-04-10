@@ -1,0 +1,34 @@
+$brand-color: #01a982;
+$brand-color-lighter: desaturate(lighten($brand-color, 55%), 40%);
+$brand-neutral-colors: (
+  #425563,
+  #5f7a76,
+  #80746e,
+  #767676
+) !default;
+$brand-accent-colors: (
+  #2ad2c9,
+  #614767,
+  #ff8d6d
+) !default;
+$brand-status-colors: (
+  critical: #f04953,
+  error: #f04953,
+  warning: #ffd144,
+  ok: $brand-color,
+  unknown: #cccccc,
+  disabled: #cccccc
+);
+$brand-link-color: inherit;
+$link-hover-color: #000;
+$brand-link-text-decoration: underline;
+$brand-grey-colors: (
+  #000001,
+  #333333,
+  #3b3b3b,
+  #434343,
+  #666666
+);
+$brand-graph-colors: $brand-neutral-colors;
+
+$main-color: #01a982;
